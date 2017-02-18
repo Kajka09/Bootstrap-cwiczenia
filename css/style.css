@@ -1,0 +1,22 @@
+body {
+	margin:0;
+	color: white;
+}
+
+.container {
+	background-color: red;
+}
+
+.container-fluid {
+	background-color: blue;
+}
+
+.column {
+	background-color: pink;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.column:nth-child(odd){
+	background-color: greenyellow;
+}
